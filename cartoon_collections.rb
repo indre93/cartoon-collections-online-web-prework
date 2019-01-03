@@ -16,5 +16,7 @@ end
 
 def find_the_cheese(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  puts cheese_types[0]
+  cheese_types[0]
+  if cheese_types != "cheddar"
+    nil
 end
