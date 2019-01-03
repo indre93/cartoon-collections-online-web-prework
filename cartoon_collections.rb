@@ -19,6 +19,6 @@ def find_the_cheese(cheese_types)
   if cheese_types.include?("cheddar")
     cheese_types[0]
   elsif
-    cheese_types[0]
+    nil
   end
 end
