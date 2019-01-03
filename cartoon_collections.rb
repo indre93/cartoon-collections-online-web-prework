@@ -7,6 +7,5 @@ end
 planeteer = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer)
-  planeteer.collect!{|element| element.capitalized}
-  end
+  planeteer.collect!{|element| element.capitalize!}
 end
