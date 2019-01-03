@@ -4,7 +4,8 @@ def roll_call_dwarves(names)
   end
 end
 
-def summon_captain_planet(planeteer)
-  planeteer.
+planeteer = ["earth", "wind", "fire", "water", "heart"]
 
+def summon_captain_planet(planeteer)
+  planeteer.join(" !")
 end
