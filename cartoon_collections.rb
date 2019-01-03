@@ -8,6 +8,6 @@ planeteer = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer)
   planeteer.collect do |element|
-    element.titleize
+    element.titlesize
   end
 end
