@@ -4,8 +4,6 @@ def roll_call_dwarves(names)
   end
 end
 
-planeteer = ["earth", "wind", "fire", "water", "heart"]
-
 def summon_captain_planet(planeteer)
   planeteer.collect!{|element| element.capitalize! && element + "!"}
 end
