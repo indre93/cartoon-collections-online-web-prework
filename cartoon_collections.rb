@@ -16,8 +16,9 @@ end
 
 def find_the_cheese(cheese_types)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types[0]
   if cheese_types != "cheddar"
     nil
+  else
+    cheese_types[0]
   end
 end
