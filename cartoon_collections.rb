@@ -7,5 +7,5 @@ end
 planeteer = ["earth", "wind", "fire", "water", "heart"]
 
 def planet(planeteer)
-  planeteer.collect!{|element| element.capitalize! && element.join("!, ")}
+  planeteer.collect!{|element| element.capitalize!}
 end
