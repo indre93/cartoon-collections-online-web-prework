@@ -7,5 +7,5 @@ end
 planeteer = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer)
-  planeteer.join(" !")
+  planeteer.join("!, ")
 end
